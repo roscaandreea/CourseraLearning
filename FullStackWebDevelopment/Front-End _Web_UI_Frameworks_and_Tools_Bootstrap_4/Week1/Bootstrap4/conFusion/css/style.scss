@@ -68,6 +68,22 @@ body{
     }
 }
 
+.modal {
+    .modal-header {
+        background: $background-dark;
+        .modal-title {
+            color:white;
+        }
+        .close {
+            color: $background-pale;
+        }
+    }
+    .modal-body {
+            background: $background-pale;
+        }
+        
+}
+
 #carouselButton {
     right:0px;
     position: absolute;
