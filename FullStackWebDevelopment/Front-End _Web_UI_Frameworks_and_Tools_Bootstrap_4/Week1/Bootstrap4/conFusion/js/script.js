@@ -14,8 +14,8 @@ $(document).ready(function() {
     });
 });
     $('#loginModalToggle').click(function() {
-        $('loginModal').modal('toggle');
+        $('#loginModal').modal('show');
     });
     $('#reserveModalToggle').click(function() {
-        $('reserveModal').modal('toggle');
+        $('#reserveModal').modal('show');
     });

@@ -36,7 +36,7 @@
                         <span class="fa fa-address-card fa-lg"></span> Contact</a></li>
                 </ul>
                 <span class="navbar-text col-sm-1">
-                    <a data-toggle="modal" data-target="#loginModal">
+                    <a id="loginModalToggle" type="button" role="button">
                         <span class="fa fa-sign-in"></span> Login
                     </a>
                 </span>
@@ -162,7 +162,7 @@
         </div>
     </div>
     <!-- Reserve Table modal -->
-    <div id="reserveTable" class="modal fade" role="dialog">
+    <div id="reserveModal" class="modal fade" role="dialog">
         <div class="modal-dialog modal-lg" role="content">
             <div class="modal-content">
                 <div class="modal-header">
@@ -257,8 +257,8 @@
                 </div>
                 <div class="col-sm align-self-center">
                     <div class="form-group">
-                        <a role="button" class="btn btn-warning btn-block nav-link"
-                          data-toggle="modal" data-target="#reserveTable">Reserve Table
+                        <a id="reserveModalToggle" role="button" class="btn btn-warning btn-block nav-link"
+                          type="button">Reserve Table
                         </a>
                     </div>                
                 </div>
